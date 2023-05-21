@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 })
 
 
-app.get('/apple-app-site-association', (req, res) => {
+app.get('/.well-known/apple-app-site-association', (req, res) => {
   // Replace the placeholders with your own app details
   const appleAppSiteAssociation = {
     applinks: {
