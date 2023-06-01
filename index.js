@@ -18,7 +18,7 @@ app.get('/.well-known/apple-app-site-association', (req, res) => {
       apps: [],
       details: [
         {
-          appID: 'ETCRPHYQG4.Passkeys-SampleTests',
+          appID: 'P7ZZ4NQ86T.mapdu-passkey.onrender.com.Shiny',
           paths: ['/path/to/content'],
         },
       ],
