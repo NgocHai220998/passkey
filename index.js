@@ -18,7 +18,7 @@ app.get('/.well-known/apple-app-site-association', (req, res) => {
       apps: [],
       details: [
         {
-          appID: 'XU6FXH6L2F.apple.passkeys-sample',
+          appID: 'ETCRPHYQG4.Passkeys-SampleTests',
           paths: ['/path/to/content'],
         },
       ],
